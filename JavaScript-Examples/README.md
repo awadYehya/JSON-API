@@ -107,7 +107,7 @@ A few notes:
 
 1. On Windows, using ctrl+c to kill napi-server-net.exe will cause it to hang. Instead, close the command prompt it was run from. Prepending `start` when initially running will make this less cumbersome.
 
-1. On occasion, the the JSON API process will start using a lot of CPU (100% of one core). This is a bug. The JSON API is still working so you might not notice this happening. If it happens you should restart the napi-server at your convenience.
+1. On occasion, the JSON API process will start using a lot of CPU (100% of one core). This is a bug. The JSON API is still working so you might not notice this happening. If it happens you should restart the napi-server at your convenience.
 
 1. The JSON API process may not be able to communicate with a Nymi Band after it has been unclasped and reauthenticated. This applies to both physical Nymi Bands and the Nymulator. If this happens the JSON API process should be restarted.
 
